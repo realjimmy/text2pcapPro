@@ -22,7 +22,7 @@ OUTPUT_BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'output')
 DEBUG_MODE = False
 
 def print_logo():
-    logo = """
+    logo = r"""
  _            _   ____                          ___           
 | |_ _____  _| |_|___ \ _ __   ___ __ _ _ __   / _ \_ __ ___  
 | __/ _ \ \/ / __| __) | '_ \ / __/ _` | '_ \ / /_)/ '__/ _ \ 
